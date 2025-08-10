@@ -1,1 +1,53 @@
 # created by virtualenv automatically
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# PyCharm project settings
+.idea/
+*.iml
+
+# VSCode project settings
+.vscode/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Custom files/folders (add here if you have any you want to ignore)
+# e.g. data/, logs/, secrets.txt
